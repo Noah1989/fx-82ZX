@@ -1,0 +1,59 @@
+PCBNEW-LibModule-V1  Mon 04 Nov 2013 08:58:12 PM CET
+# encoding utf-8
+Units mm
+$INDEX
+KEYSMALL
+$EndINDEX
+$MODULE KEYSMALL
+Po 0 0 0 15 5277FBBE 00000000 ~~
+Li KEYSMALL
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4 1 1 0 0.15 N V 21 N "KEYSMALL"
+T1 0 4 1 1 0 0.15 N V 21 N "VAL**"
+DC 0 0 3 0 0.15 21
+$PAD
+Sh "1" O 0.5 4 0 0 0
+Dr 0 0 0
+At CONN N 00008000
+Ne 0 ""
+Po -0.5 -0.5
+$EndPAD
+$PAD
+Sh "2" O 0.5 4 0 0 0
+Dr 0 0 0
+At CONN N 00008000
+Ne 0 ""
+Po 0.5 0.5
+$EndPAD
+$PAD
+Sh "2" O 0.5 4 0 0 0
+Dr 0 0 0
+At CONN N 00008000
+Ne 0 ""
+Po -1.5 0.5
+$EndPAD
+$PAD
+Sh "1" O 0.5 4 0 0 0
+Dr 0 0 0
+At CONN N 00008000
+Ne 0 ""
+Po 1.5 -0.5
+$EndPAD
+$PAD
+Sh "1" O 3.5 0.5 0 0 0
+Dr 0 0 0
+At CONN N 00008000
+Ne 0 ""
+Po 0 -2.25
+$EndPAD
+$PAD
+Sh "2" O 3.5 0.5 0 0 0
+Dr 0 0 0
+At CONN N 00008000
+Ne 0 ""
+Po 0 2.25
+$EndPAD
+$EndMODULE KEYSMALL
+$EndLIBRARY

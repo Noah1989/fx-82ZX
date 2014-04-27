@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3  Date: Mon 04 Nov 2013 05:35:55 PM CET
+#encoding utf-8
+#
+# DSMALL
+#
+DEF DSMALL D 0 40 N N 1 F N
+F0 "D" 0 200 60 H V C CNN
+F1 "DSMALL" 0 -200 60 H V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0  -25 25  -50 50 N
+P 2 0 1 0  0 -50  50 0 N
+P 2 0 1 0  25 -25  50 -50 N
+P 4 0 1 0  25 -25  -50 0  0 50  25 -25 F
+X A 1 -50 50 0 R 50 50 1 1 P
+X K 2 50 -50 0 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
