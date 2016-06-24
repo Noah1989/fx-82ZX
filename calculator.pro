@@ -1,4 +1,4 @@
-update=15/05/2016 15:05:32
+update=21/06/2016 09:03:57
 version=1
 last_client=kicad
 [general]
@@ -84,3 +84,8 @@ LibName30=ez80f91
 LibName31=dsmall
 LibName32=conn24
 LibName33=sn74f1056
+LibName34=ds80c320
+LibName35=ymf289b-s
+LibName36=ly62l205016a
+LibName37=1503_02
+LibName38=nhd-2
