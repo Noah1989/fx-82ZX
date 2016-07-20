@@ -1,0 +1,5 @@
+language: c
+before_script: cd system
+script:
+- cmake .
+- make
