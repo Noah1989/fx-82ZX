@@ -1,4 +1,5 @@
 language: c
+compiler: sdcc
 before_script: cd system
 script:
 - cmake .
