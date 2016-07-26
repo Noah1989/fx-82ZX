@@ -13,8 +13,9 @@ SET(CMAKE_C_FLAGS "-m${DEVICE} --model-small --std-sdcc99 --opt-code-size --disa
 
 SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
 
-SET(SOURCE_FILES main.c)
+SET(SOURCE_FILES kprintf.c main.c)
 
-INCLUDE_DIRECTORIES(BEFORE /usr/share/sdcc/include/mcs51)
+include_directories(include/)
+
 ADD_EXECUTABLE(fx82_system ${SOURCE_FILES})
 
